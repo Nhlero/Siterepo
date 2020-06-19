@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html, body {
+	background-image: url(apple_desktop-wallpaper-1920x1080.jpg);
+	margin: 0;
+}
+
+/*HTML Style Rules*/
+
+
+body {
+	font: 100% Georgia, "Times New Roman", Times, serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2% 0 ;
+	background: #f4f4f4;
+	line-height: 1.8;
+}
+nav ul, ul.menu {
+	list-style: none;
+}
+
+ul#navList li{
+    display: inline;
+    float: right;
+}
+ul#navList a{
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    margin: 15px 5px 30px 2px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #54A9E5;
+	width: 200px;
+    text-align: center;
+    display: block;
+}
+h2 {
+	font: 1.6em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .8em;
+}
+h3 {
+	font: 1.6em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .8em;
+}
+p {
+	margin-bottom: 1em;
+}
+a {
+	color: rgb(158, 158, 163);
+}
+.center {
+	text-align: center;
+}
+ul#navList a:hover {
+	color: rgb(229, 167, 52);
+}
+a:hover {
+	color: rgb(229, 167, 52);
+}
+
+/* layout styles */
+
+header#mainHeader {
+	height: 80px;
+}
+section#backupSolutions {
+	float: left;
+	width: 60%;
+	padding: 0 20px 0 20px;
+	margin-bottom: 1em;
+}
+article#aboutVault {
+	float: right;
+	width: 30%;
+	border: 1px solid #7f7f7f;
+	margin-bottom: 0;
+}
+aside#employeeRole {
+	float: right;
+	width: 30%;
+	margin-bottom: 1em;
+}
+footer#pageFooter {
+	clear: both;
+	overflow: auto;
+}
+
+/*-------------presentation styles---------------*/
+
+/*header styles*/
+
+header#mainHeader {
+    border-bottom: 2px solid #7f7f7f;
+    margin-bottom: 2em;
+}
+
+header#mainHeader h2 span {
+	position: absolute;
+	left: -2000em;
+}
+h1 {
+	padding-bottom: .2em;
+    float: left;
+}
+aside {
+	padding: 1em;
+	background:rgb(50, 138, 252);
+	color:white;
+	margin-bottom: 1em;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+/*Backup Overview section styles*/
+
+#backupSolutions {
+	border-right: 1px solid gray;
+}
+
+#backupSolutions img {
+	width: 90px;
+}
+
+#backupSolutions article{
+	padding-bottom: 30px 0 30px 0;
+}
+
+/*Company Overview section styles*/
+
+
+/*Footer Styles*/
+
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
