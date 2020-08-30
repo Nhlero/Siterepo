@@ -21,8 +21,17 @@
   "homepage": "https://github.com/Nhlero/Siterepo#readme",
   "dependencies": {},
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^4.1.0",
+    "nodemon": "^2.0.4"
+  },
+  "name": "nodemon",
+  "homepage": "http://nodemon.io",
+  "...": "... other standard package.json values",
+  "nodemonConfig": {
+    "ignore": ["test/*", "docs/*"],
+    "delay": "2500"
   }
+ 
 }

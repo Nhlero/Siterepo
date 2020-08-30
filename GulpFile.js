@@ -6,7 +6,7 @@ const browserSync = require('browser-sync').create();
 function style() {
     //1.where is my css file
     return gulp.src('./scss/**/*.scss')
-    //2.pass that file through sass compiler
+    //2.pass that file through sass compilerst
     .pipe(sass().on('error', sass.logError))
     //3.where do i save the compliled CSS?
     .pipe(gulp.dest('./css'))
